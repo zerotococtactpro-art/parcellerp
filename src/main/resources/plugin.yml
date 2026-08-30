@@ -1,0 +1,17 @@
+name: ParcellesRP
+version: 1.0.0
+main: fr.parcellesrp.ParcellesRP
+api-version: '1.21'
+depend: [EconomyRP]
+author: TonServeur
+description: Parcelles RP 64x64 avec achat et protection
+
+commands:
+  parcelle:
+    description: Gestion des parcelles 64x64
+    usage: /parcelle <info|acheter|vendre|ma|inviter|retirer>
+
+permissions:
+  parcellesrp.admin:
+    description: Bypass protection des parcelles
+    default: op

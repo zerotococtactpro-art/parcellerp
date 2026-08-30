@@ -1,0 +1,10 @@
+size-chunks: 4
+price: 100000.0
+sell-percent: 75
+currency-symbol: "€"
+protect:
+  blocks: true
+  containers: true
+  doors: true
+  buckets: true
+  pvp: true
